@@ -17,7 +17,7 @@ namespace RecursionApp
             numbers[4] = 23;
             numbers[5] = 30;
 
-            Console.WriteLine(numbers.GetValue(5));
+            Console.WriteLine(numbers.GetValue(4));
             Console.ReadLine();
         for(int x=1; x<=50;++x) {
         for(int row=10;row >= 5; --row) {
