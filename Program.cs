@@ -34,7 +34,8 @@ namespace RecursionApp
             names[9] = "CeeJay";
             names[10] = "Odie";
 
-            Console.WriteLine(names.GetValue(2));
+            Console.WriteLine(names.GetValue(4));
+            Console.WriteLine(names.GetValue(8));
             Console.ReadLine();
 
 
