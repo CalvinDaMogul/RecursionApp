@@ -19,6 +19,25 @@ namespace RecursionApp
 
             Console.WriteLine(numbers.GetValue(4));
             Console.ReadLine();
+
+            string[] names = new string[10];
+
+            names[0] = "Kenny";
+            names[1] = "Calvin";
+            names[2] = "Nicole";
+            names[3] = "Lola";
+            names[4] = "Trevor";
+            names[5] = "Glenn";
+            names[6] = "Kazadi";
+            names[7] = "Tobias";
+            names[8] = "Amber";
+            names[9] = "CeeJay";
+            names[10] = "Odie";
+
+            Console.WriteLine(names.GetValue(4));
+            Console.ReadLine();
+
+
         for(int x=1; x<=50;++x) {
         for(int row=10;row >= 5; --row) {
             for (int col=1; col <= row; col++) {
