@@ -1,0 +1,11 @@
+C:\Users\caljf\Documents\RecursionApp\bin\Debug\netcoreapp2.0\RecursionApp.deps.json
+C:\Users\caljf\Documents\RecursionApp\bin\Debug\netcoreapp2.0\RecursionApp.runtimeconfig.json
+C:\Users\caljf\Documents\RecursionApp\bin\Debug\netcoreapp2.0\RecursionApp.runtimeconfig.dev.json
+C:\Users\caljf\Documents\RecursionApp\bin\Debug\netcoreapp2.0\RecursionApp.dll
+C:\Users\caljf\Documents\RecursionApp\bin\Debug\netcoreapp2.0\RecursionApp.pdb
+C:\Users\caljf\Documents\RecursionApp\obj\Debug\netcoreapp2.0\RecursionApp.csproj.CoreCompileInputs.cache
+C:\Users\caljf\Documents\RecursionApp\obj\Debug\netcoreapp2.0\RecursionApp.AssemblyInfoInputs.cache
+C:\Users\caljf\Documents\RecursionApp\obj\Debug\netcoreapp2.0\RecursionApp.AssemblyInfo.cs
+C:\Users\caljf\Documents\RecursionApp\obj\Debug\netcoreapp2.0\RecursionApp.dll
+C:\Users\caljf\Documents\RecursionApp\obj\Debug\netcoreapp2.0\RecursionApp.pdb
+C:\Users\caljf\Documents\RecursionApp\obj\Debug\netcoreapp2.0\RecursionApp.csprojAssemblyReference.cache

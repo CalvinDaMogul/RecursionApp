@@ -1,26 +1,44 @@
 ﻿using System;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Linq;
 
 namespace RecursionApp
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            for (int row=10; row >= 6; --row) {
-                
-                for (int col = 1; col <= row;++col) {
-                   
-                    for (int rowB=7; rowB <= 10; ++rowB) {
-                        
-                        for (int colB=1; colB <= rowB;++colB ) {
-                           
-                            Console.Write("*");
-                        }
-                    }
-                }
-        
-                   Console.WriteLine(); 
+        static void Main(string[] args) {
+             int[] numbers = new int[6];
+
+            numbers[0] = 4;
+            numbers[1] = 8;
+            numbers[2] = 15;
+            numbers[3] = 16; 
+            numbers[4] = 23;
+            numbers[5] = 30;
+
+            Console.WriteLine(numbers.GetValue(5));
+            Console.ReadLine();
+        for(int x=1; x<=50;++x) {
+        for(int row=10;row >= 5; --row) {
+            for (int col=1; col <= row; col++) {
+               
+                Console.Write("*");
             }
+                Console.WriteLine();
+        
+        }
+                for (int row= 6; row <= 10; ++row) {
+                    for (int col= 1; col <= row; ++col) {
+                        
+                        Console.Write("*");   
+                    }
+                        Console.WriteLine();
+                }
+        }
+        
+           
+            
             Console.WriteLine("Hello World!");
             Program MyProg=new Program();
             double Amount = MyProg.AskforCoins();
@@ -76,6 +94,7 @@ namespace RecursionApp
             P--;
              Console.WriteLine("Penny="+P);
         }        
-    
+            
         }
+       
     }
