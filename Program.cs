@@ -20,7 +20,7 @@ namespace RecursionApp
             Console.WriteLine(numbers.GetValue(4));
             Console.ReadLine();
 
-            string[] names = new string[10];
+            string[] names = new string[11];
 
             names[0] = "Kenny";
             names[1] = "Calvin";
@@ -34,7 +34,7 @@ namespace RecursionApp
             names[9] = "CeeJay";
             names[10] = "Odie";
 
-            Console.WriteLine(names.GetValue(4));
+            Console.WriteLine(names.GetValue(2));
             Console.ReadLine();
 
 
