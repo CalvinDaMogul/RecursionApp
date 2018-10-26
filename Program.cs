@@ -8,16 +8,28 @@ namespace RecursionApp
     class Program
     {
         static void Main(string[] args) {
-             int[] numbers = new int[6];
+             int[,] numbers = new int[5, 2];
 
-            numbers[0] = 4;
-            numbers[1] = 8;
-            numbers[2] = 15;
-            numbers[3] = 16; 
-            numbers[4] = 23;
-            numbers[5] = 30;
+            numbers[0,0] = 1;
+            numbers[0,1] = 1;
+            numbers[1,0] = 1;
+            numbers[1,1] = 1; 
+            numbers[2,0] = 1;
+            numbers[2,1] = 1;
 
-            Console.WriteLine(numbers.GetValue(4));
+            Console.Write(numbers[0,0]);
+            Console.Write(numbers[0,1]);
+
+            Console.WriteLine(); 
+
+            Console.Write(numbers[1,0]);
+            Console.Write(numbers[1,1]);
+
+            Console.WriteLine();
+
+            Console.Write(numbers[2,0]);
+            Console.Write(numbers[2,1]);
+            // Console.WriteLine(numbers.GetValue(4));
             Console.ReadLine();
 
             string[] names = new string[11];
