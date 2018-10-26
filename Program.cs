@@ -10,12 +10,12 @@ namespace RecursionApp
         static void Main(string[] args) {
              int[,] numbers = new int[5, 2];
 
-            numbers[0,0] = 1;
-            numbers[0,1] = 1;
-            numbers[1,0] = 1;
-            numbers[1,1] = 1; 
-            numbers[2,0] = 1;
-            numbers[2,1] = 1;
+            numbers[0,0] = 2;
+            numbers[0,1] = 2;
+            numbers[1,0] = 2;
+            numbers[1,1] = 2; 
+            numbers[2,0] = 2;
+            numbers[2,1] = 2;
 
             Console.Write(numbers[0,0]);
             Console.Write(numbers[0,1]);
