@@ -46,6 +46,8 @@ namespace RecursionApp
 
             Console.WriteLine(num.GetValue(3));
             Console.WriteLine(num.GetValue(5));
+            Console.WriteLine(num.GetValue(6));
+            Console.WriteLine(num.GetValue(8));
 
             string[] names = new string[11];
 
