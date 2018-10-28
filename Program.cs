@@ -32,6 +32,21 @@ namespace RecursionApp
             // Console.WriteLine(numbers.GetValue(4));
             Console.ReadLine();
 
+            int[] num = new int[9];
+
+            num[0] = 4;
+            num[1] = 8;
+            num[2] = 12;
+            num[3] = 16;
+            num[4] = 20;
+            num[5] = 24;
+            num[6] = 28;
+            num[7] = 32;
+            num[8] = 36;
+
+            Console.WriteLine(num.GetValue(3));
+            Console.WriteLine(num.GetValue(5));
+
             string[] names = new string[11];
 
             names[0] = "Kenny";
